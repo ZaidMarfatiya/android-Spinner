@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity
 
         spinner = findViewById(R.id.spinner);
 
-        String items[] = new String[]{"Android","Python","PHP","C","Java","C++"};
+        String spinner_items[] = new String[]{"Android","Python","PHP","C","Java","C++","ANdroid Studio"};
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item,items);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item,spinner_items);
         spinner.setAdapter(adapter);
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener()
