@@ -34,12 +34,6 @@ public class MainActivity extends AppCompatActivity
                 String name = spinner.getItemAtPosition(position).toString();
                 Toast.makeText(MainActivity.this, "Selected Item is : "+name, Toast.LENGTH_SHORT).show();
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView)
-            {
-
-            }
         });
     }
 }
